@@ -35,38 +35,36 @@ $$
 
 and adjacency $\mathrm{adj}(A,B)$ iff $A$ and $B$ share a land border in the dataset.
 
-If $G = S$, then $f(G,S) = (\mathrm{WIN})$. Otherwise
+If $G = S$, then $f(G,S) = (\mathrm{WIN})$. Otherwise $f(G,S)$ is the 6-tuple
 
 $$
 \begin{aligned}
-f(G,S) = \big(&
-[G.\mathrm{continent} = S.\mathrm{continent}],\;
-[G.\mathrm{landlocked} = S.\mathrm{landlocked}],\;
+f(G,S) = (&
+\;[G_{\mathrm{cont}} = S_{\mathrm{cont}}],\;
+[G_{\mathrm{ll}} = S_{\mathrm{ll}}],\;
 \mathrm{adj}(G,S), \\
-&\;\mathrm{cmp}(G.T, S.T),\;
-\mathrm{cmp}(G.P, S.P),\;
-\mathrm{cmp}(G.A, S.A)
-\big)
+&\;\mathrm{cmp}(G_T, S_T),\;
+\mathrm{cmp}(G_P, S_P),\;
+\mathrm{cmp}(G_A, S_A)
+\;)
 \end{aligned}
 $$
 
-where $T$, $P$, and $A$ are average temperature (°C), population, and landmass (km²).
+where $G_{\mathrm{cont}}$, $G_{\mathrm{ll}}$, $G_T$, $G_P$, $G_A$ are continent, landlocked flag, temperature (°C), population, and landmass (km²).
 
 ### Partition induced by a guess
 
-Given remaining set $R$ and candidate $G \in R$,
+Given remaining set $R$ and candidate $G \in R$, group every $S \in R$ by the value of $f(G,S)$. Write $\Pi(G;R)$ for that partition, with block sizes $s_1, \ldots, s_k$ satisfying
 
 $$
-\Pi(G; R) = \left\{ \{ S \in R : f(G,S) = \sigma \} : \sigma \in \{ f(G,S) : S \in R \} \right\}.
+\sum_{i=1}^{k} s_i = |R|.
 $$
-
-Let the block sizes be $s_1, \ldots, s_k$ with $\sum_i s_i = |R|$.
 
 ### Scores
 
 $$
 W(G; R) = \max_i s_i, \qquad
-E(G; R) = \frac{1}{|R|} \sum_i s_i^2.
+E(G; R) = \frac{1}{|R|} \sum_{i=1}^{k} s_i^2.
 $$
 
 $W$ is the worst-case residual size after observing $f(G, S^\star)$. $E$ is the expected residual size under the uniform prior $S^\star \sim \mathrm{Unif}(R)$.
@@ -76,13 +74,13 @@ $W$ is the worst-case residual size after observing $f(G, S^\star)$. $E$ is the 
 If $|R| = 1$, return that unique country. Otherwise choose
 
 $$
-G^\star(R) = \arg\min_{G \in R} \; \mathrm{key}(G; R)
+G^\star(R) = \arg\min_{G \in R} \mathrm{key}(G; R)
 $$
 
 where the lexicographic key is
 
-- **minimax strategy:** $\bigl(W(G;R),\; E(G;R),\; \mathrm{name}(G)\bigr)$
-- **expected strategy:** $\bigl(E(G;R),\; W(G;R),\; \mathrm{name}(G)\bigr)$
+- **minimax strategy:** $(W(G;R),\; E(G;R),\; \mathrm{name}(G))$
+- **expected strategy:** $(E(G;R),\; W(G;R),\; \mathrm{name}(G))$
 
 $\mathrm{name}(G)$ breaks remaining ties alphabetically.
 
@@ -108,7 +106,9 @@ Precomputed scores for every Round 1 guess are in [`opening_scores.csv`](opening
 
 ```bash
 python3 geodle.py                          # play
-python3 practice.py                        # R2 drill after Israel (expected criterion)
+python3 practice.py                        # R2 drill (choose Israel or Gabon)
+python3 practice.py Gabon                  # R2 drill after Gabon
+python3 practice.py Israel                 # R2 drill after Israel
 python3 solve.py suggest                   # opening move (minimax)
 python3 solve.py auto --secret Japan       # optimal line vs a secret
 python3 solve.py eval                      # aggregate optimal-play statistics

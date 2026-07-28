@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
-"""Geodle practice — Israel opener, then multiple-choice for optimal round 2."""
+"""Geodle practice — fixed opener, then multiple-choice for optimal round 2."""
 
 from __future__ import annotations
 
+import argparse
 import random
 import sys
 
@@ -10,7 +11,7 @@ from geodle import print_feedback
 from geodle_core import countries_list, feedback, filter_possible, load_countries
 from solve import best_guess, score_guess
 
-OPENER_NAME = "Israel"
+OPENERS = ("Israel", "Gabon")
 NUM_CHOICES = 4
 STRATEGY = "expected"  # minimize expected leftover
 
@@ -20,7 +21,6 @@ def pick_choices(correct: dict, remaining: list[dict]) -> list[dict]:
     pool_others = [c for c in remaining if c["name"] != correct["name"]]
     random.shuffle(pool_others)
 
-    # Up to NUM_CHOICES total, all from remaining possibles
     n_distractors = min(NUM_CHOICES - 1, len(pool_others))
     options = [correct] + pool_others[:n_distractors]
     random.shuffle(options)
@@ -55,9 +55,37 @@ def ask_choice(options: list[dict]) -> dict | None:
         print(f"  Enter {', '.join(letters)}.")
 
 
+def choose_opener(countries: dict[str, dict], requested: str | None) -> dict | None:
+    if requested:
+        key = requested.strip().casefold()
+        matches = [name for name in OPENERS if name.casefold() == key or key in name.casefold()]
+        if len(matches) == 1:
+            return countries[matches[0].casefold()]
+        print(f"Unknown opener {requested!r}. Choose from: {', '.join(OPENERS)}", file=sys.stderr)
+        return None
+
+    print("Choose Round 1 opener:")
+    for i, name in enumerate(OPENERS, 1):
+        print(f"  {i}) {name}")
+    print()
+    while True:
+        try:
+            raw = input("Opener (1/2 or name, q to quit)> ").strip()
+        except (EOFError, KeyboardInterrupt):
+            print()
+            return None
+        if raw.casefold() in {"q", "quit", "exit"}:
+            return None
+        if raw in {"1", "2"}:
+            return countries[OPENERS[int(raw) - 1].casefold()]
+        for name in OPENERS:
+            if name.casefold() == raw.casefold() or raw.casefold() in name.casefold():
+                return countries[name.casefold()]
+        print(f"  Enter 1, 2, or one of: {', '.join(OPENERS)}.")
+
+
 def play_round(universe: list[dict], opener: dict) -> bool | None:
     """One practice round. Returns True/False for correct, None if quit."""
-    # Avoid trivial WIN-on-R1 and single-country leftovers
     candidates = [c for c in universe if c["name"] != opener["name"]]
     while True:
         secret = random.choice(candidates)
@@ -99,14 +127,25 @@ def play_round(universe: list[dict], opener: dict) -> bool | None:
     return False
 
 
-def main() -> int:
+def main(argv: list[str] | None = None) -> int:
+    parser = argparse.ArgumentParser(description="Practice optimal Round 2 after a fixed opener")
+    parser.add_argument(
+        "opener",
+        nargs="?",
+        help="Round 1 country: Israel or Gabon (prompted if omitted)",
+    )
+    args = parser.parse_args(argv)
+
     countries = load_countries()
     universe = countries_list(countries)
-    opener = countries[OPENER_NAME.casefold()]
+    opener = choose_opener(countries, args.opener)
+    if opener is None:
+        return 0
 
-    print("GEODLE PRACTICE — optimal Round 2 after Israel")
+    print()
+    print(f"GEODLE PRACTICE — optimal Round 2 after {opener['name']}")
     print("Criterion: minimize expected leftover (not minimax).")
-    print("You'll see Israel's feedback, then pick the best next guess.")
+    print(f"You'll see {opener['name']}'s feedback, then pick the best next guess.")
     print()
 
     correct = 0
