@@ -106,6 +106,8 @@ Precomputed scores for every Round 1 guess are in [`opening_scores.csv`](opening
 
 ```bash
 python3 geodle.py                          # play
+python3 assist.py                          # live solver: enter site feedback each turn
+python3 assist.py --strategy minimax       # rank suggestions by worst-case split
 python3 practice.py                        # R2 drill (choose Israel or Gabon)
 python3 practice.py Gabon                  # R2 drill after Gabon
 python3 practice.py Israel                 # R2 drill after Israel
