@@ -57,7 +57,7 @@ where $T$, $P$, and $A$ are average temperature (°C), population, and landmass 
 Given remaining set $R$ and candidate $G \in R$,
 
 $$
-\Pi(G; R) = \Big\{ \{ S \in R : f(G,S) = \sigma \} \;\Big|\; \sigma \in \{ f(G,S) : S \in R \} \Big\}.
+\Pi(G; R) = \left\{ \{ S \in R : f(G,S) = \sigma \} : \sigma \in \{ f(G,S) : S \in R \} \right\}.
 $$
 
 Let the block sizes be $s_1, \ldots, s_k$ with $\sum_i s_i = |R|$.
