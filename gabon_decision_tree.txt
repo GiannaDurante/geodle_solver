@@ -1,0 +1,98 @@
+Decision tree after opening with Gabon
+========================================================================
+
+Pool 30: ¬Afr · coastal · ¬border · T↓ · P↑ · A↑
+  → Optimal R2: France  (worst=5, expected=3.20)
+  Remaining: Argentina, Australia, Canada, Chile, China, Colombia, Ecuador, Finland, France, Germany, India, Iran, Iraq, Italy, Japan, Mexico, Myanmar, New Zealand, Norway, Pakistan, Papua New Guinea, Peru, Poland, Russia, Spain, Sweden, Turkey, Ukraine, United States, Vietnam
+
+Pool 25: ¬Afr · coastal · ¬border · T↓ · P↑ · A↓
+  → Optimal R2: Bulgaria  (worst=5, expected=2.60)
+  Remaining: Albania, Belgium, Bosnia and Herzegovina, Bulgaria, Costa Rica, Croatia, Denmark, Dominican Republic, Georgia, Greece, Guatemala, Honduras, Ireland, Israel, Jordan, Lebanon, Lithuania, Netherlands, North Korea, Portugal, Romania, South Korea, Syria, United Kingdom, Uruguay
+
+Pool 23: ¬Afr · coastal · ¬border · T↑ · P↓ · A↓
+  → Optimal R2: Barbados  (worst=3, expected=1.96)
+  Remaining: Antigua and Barbuda, Bahamas, Bahrain, Barbados, Belize, Brunei, Dominica, Grenada, Guyana, Kiribati, Maldives, Marshall Islands, Micronesia, Nauru, Palau, Saint Kitts and Nevis, Saint Lucia, Saint Vincent and the Grenadines, Samoa, Solomon Islands, Suriname, Trinidad and Tobago, Tuvalu
+
+Pool 14: ¬Afr · LL · ¬border · T↓ · P↑ · A↓
+  → Optimal R2: Austria  (worst=2, expected=1.14)
+  Remaining: Armenia, Austria, Azerbaijan, Belarus, Czechia, Hungary, Kyrgyzstan, Laos, Moldova, Nepal, Serbia, Slovakia, Switzerland, Tajikistan
+
+Pool 13: ¬Afr · coastal · ¬border · T↑ · P↑ · A↓
+  → Optimal R2: Nicaragua  (worst=3, expected=1.62)
+  Remaining: Bangladesh, Cambodia, Cuba, El Salvador, Haiti, Jamaica, Kuwait, Nicaragua, Panama, Qatar, Singapore, Sri Lanka, United Arab Emirates
+
+Pool 11: Afr · coastal · ¬border · T↓ · P↑ · A↑
+  → Optimal R2: Angola  (worst=2, expected=1.55)
+  Remaining: Algeria, Angola, DR Congo, Egypt, Libya, Madagascar, Morocco, Mozambique, Namibia, South Africa, Tanzania
+
+Pool 11: ¬Afr · coastal · ¬border · T↓ · P↓ · A↓
+  → Optimal R2: Montenegro  (worst=2, expected=1.55)
+  Remaining: Cyprus, Estonia, Fiji, Iceland, Latvia, Malta, Monaco, Montenegro, Slovenia, Timor-Leste, Tonga
+
+Pool 9: Afr · coastal · ¬border · T↑ · P↑ · A↓
+  → Optimal R2: Benin  (worst=2, expected=1.44)
+  Remaining: Benin, Eritrea, Gambia, Ghana, Guinea, Liberia, Senegal, Sierra Leone, Togo
+
+Pool 9: ¬Afr · coastal · ¬border · T↑ · P↑ · A↑
+  → Optimal R2: Malaysia  (worst=1, expected=1.00)
+  Remaining: Brazil, Indonesia, Malaysia, Oman, Philippines, Saudi Arabia, Thailand, Venezuela, Yemen
+
+Pool 8: ¬Afr · LL · ¬border · T↓ · P↓ · A↓
+  → Optimal R2: Luxembourg  (worst=2, expected=1.50)
+  Remaining: Andorra, Bhutan, Kosovo, Liechtenstein, Luxembourg, North Macedonia, San Marino, Vatican City
+
+Pool 7: ¬Afr · LL · ¬border · T↓ · P↑ · A↑
+  → Optimal R2: Uzbekistan  (worst=1, expected=1.00)
+  Remaining: Afghanistan, Bolivia, Kazakhstan, Mongolia, Paraguay, Turkmenistan, Uzbekistan
+
+Pool 6: Afr · LL · ¬border · T↑ · P↑ · A↑
+  → Optimal R2: Central African Republic  (worst=2, expected=1.33)
+  Remaining: Burkina Faso, Central African Republic, Chad, Mali, Niger, South Sudan
+
+Pool 6: Afr · coastal · ¬border · T↑ · P↑ · A↑
+  → Optimal R2: Kenya  (worst=2, expected=1.33)
+  Remaining: Ivory Coast, Kenya, Mauritania, Nigeria, Somalia, Sudan
+
+Pool 5: Afr · coastal · ¬border · T↑ · P↓ · A↓
+  → Optimal R2: São Tomé and Príncipe  (worst=2, expected=1.40)
+  Remaining: Comoros, Djibouti, Guinea-Bissau, Seychelles, São Tomé and Príncipe
+
+Pool 4: Afr · LL · ¬border · T↓ · P↑ · A↑
+  → Optimal R2: Botswana  (worst=1, expected=1.00)
+  Remaining: Botswana, Ethiopia, Zambia, Zimbabwe
+
+Pool 4: Afr · LL · ¬border · T↓ · P↑ · A↓
+  → Optimal R2: Rwanda  (worst=1, expected=1.00)
+  Remaining: Burundi, Malawi, Rwanda, Uganda
+
+Pool 2: Afr · coastal · ¬border · T↓ · P↓ · A↓
+  → Optimal R2: Cape Verde  (worst=1, expected=1.00)
+  Remaining: Cape Verde, Mauritius
+
+Pool 2: Afr · LL · ¬border · T↓ · P↓ · A↓
+  → Optimal R2: Eswatini  (worst=1, expected=1.00)
+  Remaining: Eswatini, Lesotho
+
+Pool 1: Afr · coastal · border · T↓ · P↑ · A↑
+  → Optimal R2: Cameroon  (worst=1, expected=1.00)
+  Remaining: Cameroon
+
+Pool 1: Afr · coastal · border · T↓ · P↓ · A↓
+  → Optimal R2: Equatorial Guinea  (worst=1, expected=1.00)
+  Remaining: Equatorial Guinea
+
+Pool 1: WIN
+  → Solved on round 1
+
+Pool 1: Afr · coastal · border · T↑ · P↑ · A↑
+  → Optimal R2: Republic of the Congo  (worst=1, expected=1.00)
+  Remaining: Republic of the Congo
+
+Pool 1: Afr · coastal · ¬border · T↓ · P↑ · A↓
+  → Optimal R2: Tunisia  (worst=1, expected=1.00)
+  Remaining: Tunisia
+
+Pool 1: ¬Afr · coastal · ¬border · T= · P↓ · A↓
+  → Optimal R2: Vanuatu  (worst=1, expected=1.00)
+  Remaining: Vanuatu
+

@@ -1,0 +1,107 @@
+Decision tree after opening with Israel
+Ordered: ¬continent → coastal/LL → border → T → P → A
+========================================================================
+
+## ¬Asia · coastal
+
+Pool 28: ¬Asia · coastal · ¬border · T↑ · P↑ · A↑
+  → Optimal R2: Kenya  (worst=5, expected=2.93)
+  Remaining: Algeria, Angola, Australia, Benin, Brazil, Cameroon, Colombia, Cuba, DR Congo, Dominican Republic, Ecuador, Ghana, Guatemala, Guinea, Haiti, Honduras, Ivory Coast, Kenya, Madagascar, Mexico, Mozambique, Nigeria, Republic of the Congo, Senegal, Somalia, Sudan, Tanzania, Venezuela
+
+Pool 20: ¬Asia · coastal · ¬border · T↑ · P↓ · A↑
+  → Optimal R2: Liberia  (worst=2, expected=1.30)
+  Remaining: Belize, Costa Rica, Djibouti, El Salvador, Equatorial Guinea, Eritrea, Gabon, Guinea-Bissau, Guyana, Liberia, Libya, Mauritania, Namibia, Nicaragua, Panama, Papua New Guinea, Sierra Leone, Solomon Islands, Suriname, Togo
+
+Pool 27: ¬Asia · coastal · ¬border · T↑ · P↓ · A↓
+  → Optimal R2: Barbados  (worst=6, expected=3.22)
+  Remaining: Antigua and Barbuda, Bahamas, Barbados, Cape Verde, Comoros, Dominica, Fiji, Gambia, Grenada, Jamaica, Kiribati, Marshall Islands, Mauritius, Micronesia, Nauru, Palau, Saint Kitts and Nevis, Saint Lucia, Saint Vincent and the Grenadines, Samoa, Seychelles, São Tomé and Príncipe, Timor-Leste, Tonga, Trinidad and Tobago, Tuvalu, Vanuatu
+
+Pool 22: ¬Asia · coastal · ¬border · T↓ · P↑ · A↑
+  → Optimal R2: Germany  (worst=4, expected=2.36)
+  Remaining: Argentina, Belgium, Canada, Chile, France, Germany, Greece, Italy, Morocco, Netherlands, Peru, Poland, Portugal, Romania, Russia, South Africa, Spain, Sweden, Tunisia, Ukraine, United Kingdom, United States
+
+Pool 14: ¬Asia · coastal · ¬border · T↓ · P↓ · A↑
+  → Optimal R2: Bosnia and Herzegovina  (worst=3, expected=2.00)
+  Remaining: Albania, Bosnia and Herzegovina, Bulgaria, Croatia, Denmark, Estonia, Finland, Iceland, Ireland, Latvia, Lithuania, New Zealand, Norway, Uruguay
+
+Pool 5: ¬Asia · coastal · ¬border · T↓ · P↓ · A↓
+  → Optimal R2: Cyprus  (worst=2, expected=1.40)
+  Remaining: Cyprus, Malta, Monaco, Montenegro, Slovenia
+
+Pool 1: ¬Asia · coastal · border · T↑ · P↑ · A↑
+  → Optimal R2: Egypt  (worst=1, expected=1.00)
+  Remaining: Egypt
+
+## ¬Asia · landlocked
+
+Pool 12: ¬Asia · LL · ¬border · T↑ · P↑ · A↑
+  → Optimal R2: Zambia  (worst=3, expected=1.67)
+  Remaining: Bolivia, Burkina Faso, Burundi, Chad, Ethiopia, Malawi, Mali, Niger, South Sudan, Uganda, Zambia, Zimbabwe
+
+Pool 3: ¬Asia · LL · ¬border · T↑ · P↓ · A↑
+  → Optimal R2: Botswana  (worst=1, expected=1.00)
+  Remaining: Botswana, Central African Republic, Paraguay
+
+Pool 1: ¬Asia · LL · ¬border · T= · P↓ · A↓
+  → Optimal R2: Eswatini  (worst=1, expected=1.00)
+  Remaining: Eswatini
+
+Pool 4: ¬Asia · LL · ¬border · T↓ · P↑ · A↑
+  → Optimal R2: Czechia  (worst=1, expected=1.00)
+  Remaining: Belarus, Czechia, Hungary, Rwanda
+
+Pool 7: ¬Asia · LL · ¬border · T↓ · P↓ · A↑
+  → Optimal R2: Austria  (worst=2, expected=1.29)
+  Remaining: Austria, Lesotho, Moldova, North Macedonia, Serbia, Slovakia, Switzerland
+
+Pool 6: ¬Asia · LL · ¬border · T↓ · P↓ · A↓
+  → Optimal R2: Liechtenstein  (worst=2, expected=1.67)
+  Remaining: Andorra, Kosovo, Liechtenstein, Luxembourg, San Marino, Vatican City
+
+## Asia · coastal
+
+Pool 15: Asia · coastal · ¬border · T↑ · P↑ · A↑
+  → Optimal R2: Thailand  (worst=3, expected=2.07)
+  Remaining: Bangladesh, Cambodia, India, Indonesia, Iraq, Malaysia, Myanmar, Pakistan, Philippines, Saudi Arabia, Sri Lanka, Thailand, United Arab Emirates, Vietnam, Yemen
+
+Pool 1: Asia · coastal · ¬border · T↑ · P↓ · A↑
+  → Optimal R2: Oman  (worst=1, expected=1.00)
+  Remaining: Oman
+
+Pool 6: Asia · coastal · ¬border · T↑ · P↓ · A↓
+  → Optimal R2: Bahrain  (worst=1, expected=1.00)
+  Remaining: Bahrain, Brunei, Kuwait, Maldives, Qatar, Singapore
+
+Pool 6: Asia · coastal · ¬border · T↓ · P↑ · A↑
+  → Optimal R2: Japan  (worst=1, expected=1.00)
+  Remaining: China, Iran, Japan, North Korea, South Korea, Turkey
+
+Pool 1: Asia · coastal · ¬border · T↓ · P↓ · A↑
+  → Optimal R2: Georgia  (worst=1, expected=1.00)
+  Remaining: Georgia
+
+Pool 2: Asia · coastal · border · T↓ · P↑ · A↑
+  → Optimal R2: Jordan  (worst=1, expected=1.00)
+  Remaining: Jordan, Syria
+
+Pool 1: Asia · coastal · border · T↓ · P↓ · A↓
+  → Optimal R2: Lebanon  (worst=1, expected=1.00)
+  Remaining: Lebanon
+
+## Asia · landlocked
+
+Pool 1: Asia · LL · ¬border · T↑ · P↓ · A↑
+  → Optimal R2: Laos  (worst=1, expected=1.00)
+  Remaining: Laos
+
+Pool 6: Asia · LL · ¬border · T↓ · P↑ · A↑
+  → Optimal R2: Afghanistan  (worst=1, expected=1.00)
+  Remaining: Afghanistan, Azerbaijan, Kazakhstan, Nepal, Tajikistan, Uzbekistan
+
+Pool 5: Asia · LL · ¬border · T↓ · P↓ · A↑
+  → Optimal R2: Armenia  (worst=2, expected=1.40)
+  Remaining: Armenia, Bhutan, Kyrgyzstan, Mongolia, Turkmenistan
+
+Pool 1: WIN
+  → Solved on round 1
+

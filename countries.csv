@@ -1,0 +1,196 @@
+country,iso3,continent,landlocked,neighbors,avg_temperature_c,population,landmass_km2
+Afghanistan,AFG,Asia,True,China; Iran; Pakistan; Tajikistan; Turkmenistan; Uzbekistan,12.3,40218234,652230
+Albania,ALB,Europe,False,Greece; Kosovo; Montenegro; North Macedonia,12.5,2837743,28748
+Algeria,DZA,Africa,False,Libya; Mali; Mauritania; Morocco; Niger; Tunisia; Western Sahara,23.4,44700000,2381741
+Andorra,AND,Europe,True,France; Spain,5.2,77265,468
+Angola,AGO,Africa,False,DR Congo; Namibia; Republic of the Congo; Zambia,22.7,32866268,1246700
+Antigua and Barbuda,ATG,North America,False,,26.2,97928,442
+Argentina,ARG,South America,False,Bolivia; Brazil; Chile; Paraguay; Uruguay,15.2,45376763,2780400
+Armenia,ARM,Asia,True,Azerbaijan; Georgia; Iran; Turkey,6.8,2963234,29743
+Australia,AUS,Oceania,False,,22.4,25687041,7692024
+Austria,AUT,Europe,True,Czechia; Germany; Hungary; Italy; Liechtenstein; Slovakia; Slovenia; Switzerland,6.7,8917205,83871
+Azerbaijan,AZE,Asia,True,Armenia; Georgia; Iran; Russia; Turkey,12.3,10110116,86600
+Bahamas,BHS,North America,False,,25.4,393248,13943
+Bahrain,BHR,Asia,False,,26.3,1701583,765
+Bangladesh,BGD,Asia,False,India; Myanmar,25.6,164689383,147570
+Barbados,BRB,North America,False,,26.4,287371,430
+Belarus,BLR,Europe,True,Latvia; Lithuania; Poland; Russia; Ukraine,7.0,9398861,207600
+Belgium,BEL,Europe,False,France; Germany; Luxembourg; Netherlands,10.1,11555997,30528
+Belize,BLZ,North America,False,Guatemala; Mexico,25.8,397621,22966
+Benin,BEN,Africa,False,Burkina Faso; Niger; Nigeria; Togo,27.8,12123198,112622
+Bhutan,BTN,Asia,True,China; India,9.7,771612,38394
+Bolivia,BOL,South America,True,Argentina; Brazil; Chile; Paraguay; Peru,20.9,11673029,1098581
+Bosnia and Herzegovina,BIH,Europe,False,Croatia; Montenegro; Serbia,10.2,3280815,51209
+Botswana,BWA,Africa,True,Namibia; South Africa; Zambia; Zimbabwe,22.3,2351625,582000
+Brazil,BRA,South America,False,Argentina; Bolivia; Colombia; French Guiana; Guyana; Paraguay; Peru; Suriname; Uruguay; Venezuela,25.6,212559409,8515767
+Brunei,BRN,Asia,False,Malaysia,26.7,437483,5765
+Bulgaria,BGR,Europe,False,Greece; North Macedonia; Romania; Serbia; Turkey,11.5,6927288,110879
+Burkina Faso,BFA,Africa,True,Benin; Ghana; Ivory Coast; Mali; Niger; Togo,28.7,20903278,272967
+Burundi,BDI,Africa,True,DR Congo; Rwanda; Tanzania,20.6,11890781,27834
+Cambodia,KHM,Asia,False,Laos; Thailand; Vietnam,27.7,16718971,181035
+Cameroon,CMR,Africa,False,Central African Republic; Chad; Equatorial Guinea; Gabon; Nigeria; Republic of the Congo,25.0,26545864,475442
+Canada,CAN,North America,False,United States,-3.3,38005238,9984670
+Cape Verde,CPV,Africa,False,,23.3,555988,4033
+Central African Republic,CAF,Africa,True,Cameroon; Chad; DR Congo; Republic of the Congo; South Sudan; Sudan,26.4,4829764,622984
+Chad,TCD,Africa,True,Cameroon; Central African Republic; Libya; Niger; Nigeria; Sudan,27.2,16425859,1284000
+Chile,CHL,South America,False,Argentina; Bolivia; Peru,9.1,19116209,756102
+China,CHN,Asia,False,Afghanistan; Bhutan; Hong Kong; India; Kazakhstan; Kyrgyzstan; Laos; Macau; Mongolia; Myanmar; Nepal; North Korea; Pakistan; Russia; Tajikistan; Vietnam,7.1,1402112000,9706961
+Colombia,COL,South America,False,Brazil; Ecuador; Panama; Peru; Venezuela,24.5,50882884,1141748
+Comoros,COM,Africa,False,,25.3,869595,1862
+Costa Rica,CRI,North America,False,Nicaragua; Panama,23.6,5094114,51100
+Croatia,HRV,Europe,False,Bosnia and Herzegovina; Hungary; Montenegro; Serbia; Slovenia,12.2,4047200,56594
+Cuba,CUB,North America,False,,26.0,11326616,109884
+Cyprus,CYP,Europe,False,,19.6,1207361,9251
+Czechia,CZE,Europe,True,Austria; Germany; Poland; Slovakia,8.5,10698896,78865
+DR Congo,COD,Africa,False,Angola; Burundi; Central African Republic; Republic of the Congo; Rwanda; South Sudan; Tanzania; Uganda; Zambia,24.6,89561404,2344858
+Denmark,DNK,Europe,False,Germany,8.8,5831404,43094
+Djibouti,DJI,Africa,False,Eritrea; Ethiopia; Somalia,28.6,988002,23200
+Dominica,DMA,North America,False,,25.7,71991,751
+Dominican Republic,DOM,North America,False,Haiti,24.5,10847904,48671
+Ecuador,ECU,South America,False,Colombia; Peru,21.2,17643060,276841
+Egypt,EGY,Africa,False,Israel; Libya; Palestine; Sudan,23.0,102334403,1002450
+El Salvador,SLV,North America,False,Guatemala; Honduras,26.4,6486201,21041
+Equatorial Guinea,GNQ,Africa,False,Cameroon; Gabon,24.5,1402985,28051
+Eritrea,ERI,Africa,False,Djibouti; Ethiopia; Sudan,27.1,5352000,117600
+Estonia,EST,Europe,False,Latvia; Russia,6.0,1331057,45227
+Eswatini,SWZ,Africa,True,Mozambique; South Africa,20.4,1160164,17364
+Ethiopia,ETH,Africa,True,Djibouti; Eritrea; Kenya; Somalia; South Sudan; Sudan,23.5,114963583,1104300
+Fiji,FJI,Oceania,False,,24.7,896444,18272
+Finland,FIN,Europe,False,Norway; Russia; Sweden,2.6,5530719,338424
+France,FRA,Europe,False,Andorra; Belgium; Germany; Italy; Luxembourg; Monaco; Spain; Switzerland,11.3,67391582,551695
+Gabon,GAB,Africa,False,Cameroon; Equatorial Guinea; Republic of the Congo,25.2,2225728,267668
+Gambia,GMB,Africa,False,Senegal,28.3,2416664,10689
+Georgia,GEO,Asia,False,Armenia; Azerbaijan; Russia; Turkey,8.2,3714000,69700
+Germany,DEU,Europe,False,Austria; Belgium; Czechia; Denmark; France; Luxembourg; Netherlands; Poland; Switzerland,9.3,83240525,357114
+Ghana,GHA,Africa,False,Burkina Faso; Ivory Coast; Togo,27.6,31072945,238533
+Greece,GRC,Europe,False,Albania; Bulgaria; North Macedonia; Turkey,15.0,10715549,131990
+Grenada,GRD,North America,False,,26.4,112519,344
+Guatemala,GTM,North America,False,Belize; El Salvador; Honduras; Mexico,23.2,16858333,108889
+Guinea,GIN,Africa,False,Guinea-Bissau; Ivory Coast; Liberia; Mali; Senegal; Sierra Leone,26.5,13132792,245857
+Guinea-Bissau,GNB,Africa,False,Guinea; Senegal,28.1,1967998,36125
+Guyana,GUY,South America,False,Brazil; Suriname; Venezuela,25.9,786559,214969
+Haiti,HTI,North America,False,Dominican Republic,25.4,11402533,27750
+Honduras,HND,North America,False,El Salvador; Guatemala; Nicaragua,24.1,9904608,112492
+Hungary,HUN,Europe,True,Austria; Croatia; Romania; Serbia; Slovakia; Slovenia; Ukraine,11.4,9749763,93028
+Iceland,ISL,Europe,False,,1.1,366425,103000
+India,IND,Asia,False,Bangladesh; Bhutan; China; Myanmar; Nepal; Pakistan,24.4,1380004385,3287590
+Indonesia,IDN,Asia,False,Malaysia; Papua New Guinea; Timor-Leste,25.6,273523621,1904569
+Iran,IRN,Asia,False,Afghanistan; Armenia; Azerbaijan; Iraq; Pakistan; Turkey; Turkmenistan,17.9,83992953,1648195
+Iraq,IRQ,Asia,False,Iran; Jordan; Kuwait; Saudi Arabia; Syria; Turkey,22.8,40222503,438317
+Ireland,IRL,Europe,False,United Kingdom,9.9,4994724,70273
+Israel,ISR,Asia,False,Egypt; Jordan; Lebanon; Palestine; Syria,20.4,9216900,20770
+Italy,ITA,Europe,False,Austria; France; San Marino; Slovenia; Switzerland; Vatican City,12.9,59554023,301336
+Ivory Coast,CIV,Africa,False,Burkina Faso; Ghana; Guinea; Liberia; Mali,26.8,26378275,322463
+Jamaica,JAM,North America,False,,25.9,2961161,10991
+Japan,JPN,Asia,False,,12.2,125836021,377930
+Jordan,JOR,Asia,False,Iraq; Israel; Palestine; Saudi Arabia; Syria,19.3,10203140,89342
+Kazakhstan,KAZ,Asia,True,China; Kyrgyzstan; Russia; Turkmenistan; Uzbekistan,6.8,18754440,2724900
+Kenya,KEN,Africa,False,Ethiopia; Somalia; South Sudan; Tanzania; Uganda,25.5,53771300,580367
+Kiribati,KIR,Oceania,False,,26.8,119446,811
+Kosovo,UNK,Europe,True,Albania; Montenegro; North Macedonia; Serbia,4.2,1775378,10908
+Kuwait,KWT,Asia,False,Iraq; Saudi Arabia,26.1,4270563,17818
+Kyrgyzstan,KGZ,Asia,True,China; Kazakhstan; Tajikistan; Uzbekistan,0.5,6591600,199951
+Laos,LAO,Asia,True,Cambodia; China; Myanmar; Thailand; Vietnam,23.4,7275556,236800
+Latvia,LVA,Europe,False,Belarus; Estonia; Lithuania; Russia,6.5,1901548,64559
+Lebanon,LBN,Asia,False,Israel; Syria,15.4,6825442,10452
+Lesotho,LSO,Africa,True,South Africa,11.7,2142252,30355
+Liberia,LBR,Africa,False,Guinea; Ivory Coast; Sierra Leone,25.8,5057677,111369
+Libya,LBY,Africa,False,Algeria; Chad; Egypt; Niger; Sudan; Tunisia,22.2,6871287,1759540
+Liechtenstein,LIE,Europe,True,Austria; Switzerland,5.8,38137,160
+Lithuania,LTU,Europe,False,Belarus; Latvia; Poland; Russia,7.1,2794700,65300
+Luxembourg,LUX,Europe,True,Belgium; France; Germany,9.3,632275,2586
+Madagascar,MDG,Africa,False,,22.9,27691019,587041
+Malawi,MWI,Africa,True,Mozambique; Tanzania; Zambia,22.3,19129955,118484
+Malaysia,MYS,Asia,False,Brunei; Indonesia; Thailand,26.1,32365998,330803
+Maldives,MDV,Asia,False,,27.1,540542,300
+Mali,MLI,Africa,True,Algeria; Burkina Faso; Guinea; Ivory Coast; Mauritania; Niger; Senegal,28.6,20250834,1240192
+Malta,MLT,Europe,False,,19.4,525285,316
+Marshall Islands,MHL,Oceania,False,,27.0,59194,181
+Mauritania,MRT,Africa,False,Algeria; Mali; Senegal; Western Sahara,27.6,4649660,1030700
+Mauritius,MUS,Africa,False,,23.8,1265740,2040
+Mexico,MEX,North America,False,Belize; Guatemala; United States,21.2,128932753,1964375
+Micronesia,FSM,Oceania,False,,27.1,115021,702
+Moldova,MDA,Europe,True,Romania; Ukraine,10.4,2617820,33846
+Monaco,MCO,Europe,False,France,14.7,39244,2.0
+Mongolia,MNG,Asia,True,China; Russia,1.4,3278292,1564110
+Montenegro,MNE,Europe,False,Albania; Bosnia and Herzegovina; Croatia; Kosovo; Serbia,9.6,621718,13812
+Morocco,MAR,Africa,False,Algeria; Spain; Western Sahara,18.4,36910558,446550
+Mozambique,MOZ,Africa,False,Eswatini; Malawi; South Africa; Tanzania; Zambia; Zimbabwe,24.3,31255435,801590
+Myanmar,MMR,Asia,False,Bangladesh; China; India; Laos; Thailand,23.9,54409794,676578
+Namibia,NAM,Africa,False,Angola; Botswana; South Africa; Zambia,21.6,2540916,825615
+Nauru,NRU,Oceania,False,,27.2,10834,21
+Nepal,NPL,Asia,True,China; India,12.5,29136808,147181
+Netherlands,NLD,Europe,False,Belgium; Germany,10.3,16655799,41850
+New Zealand,NZL,Oceania,False,,10.6,5084300,270467
+Nicaragua,NIC,North America,False,Costa Rica; Honduras,25.9,6624554,130373
+Niger,NER,Africa,True,Algeria; Benin; Burkina Faso; Chad; Libya; Mali; Nigeria,27.4,24206636,1267000
+Nigeria,NGA,Africa,False,Benin; Cameroon; Chad; Niger,27.4,206139587,923768
+North Korea,PRK,Asia,False,China; Russia; South Korea,7.4,25778815,120538
+North Macedonia,MKD,Europe,True,Albania; Bulgaria; Greece; Kosovo; Serbia,11.2,2077132,25713
+Norway,NOR,Europe,False,Finland; Russia; Sweden,2.1,5379475,323802
+Oman,OMN,Asia,False,Saudi Arabia; United Arab Emirates; Yemen,27.9,5106622,309500
+Pakistan,PAK,Asia,False,Afghanistan; China; India; Iran,20.6,220892331,881912
+Palau,PLW,Oceania,False,,27.1,18092,459
+Panama,PAN,North America,False,Colombia; Costa Rica,25.4,4314768,75417
+Papua New Guinea,PNG,Oceania,False,Indonesia,23.9,8947027,462840
+Paraguay,PRY,South America,True,Argentina; Bolivia; Brazil,24.4,7132530,406752
+Peru,PER,South America,False,Bolivia; Brazil; Chile; Colombia; Ecuador,19.4,32971846,1285216
+Philippines,PHL,Asia,False,,26.1,109581085,342353
+Poland,POL,Europe,False,Belarus; Czechia; Germany; Lithuania; Russia; Slovakia; Ukraine,8.6,37950802,312679
+Portugal,PRT,Europe,False,Spain,15.4,10305564,92090
+Qatar,QAT,Asia,False,Saudi Arabia,27.4,2881060,11586
+Republic of the Congo,COG,Africa,False,Angola; Cameroon; Central African Republic; DR Congo; Gabon,25.3,89561404,342000
+Romania,ROU,Europe,False,Bulgaria; Hungary; Moldova; Serbia; Ukraine,10.1,19286123,238391
+Russia,RUS,Europe,False,Azerbaijan; Belarus; China; Estonia; Finland; Georgia; Kazakhstan; Latvia; Lithuania; Mongolia; North Korea; Norway; Poland; Ukraine,-3.6,144104080,17098242
+Rwanda,RWA,Africa,True,Burundi; DR Congo; Tanzania; Uganda,19.6,12952209,26338
+Saint Kitts and Nevis,KNA,North America,False,,26.1,53192,261
+Saint Lucia,LCA,North America,False,,26.7,183629,616
+Saint Vincent and the Grenadines,VCT,North America,False,,26.4,110947,389
+Samoa,WSM,Oceania,False,,25.6,198410,2842
+San Marino,SMR,Europe,True,Italy,14.7,33938,61
+Saudi Arabia,SAU,Asia,False,Iraq; Jordan; Kuwait; Oman; Qatar; United Arab Emirates; Yemen,25.5,34813867,2149690
+Senegal,SEN,Africa,False,Gambia; Guinea; Guinea-Bissau; Mali; Mauritania,29.1,16743930,196722
+Serbia,SRB,Europe,True,Bosnia and Herzegovina; Bulgaria; Croatia; Hungary; Kosovo; Montenegro; North Macedonia; Romania,11.3,6908224,88361
+Seychelles,SYC,Africa,False,,26.2,98462,452
+Sierra Leone,SLE,Africa,False,Guinea; Liberia,26.5,7976985,71740
+Singapore,SGP,Asia,False,,27.0,5685807,710
+Slovakia,SVK,Europe,True,Austria; Czechia; Hungary; Poland; Ukraine,8.7,5458827,49037
+Slovenia,SVN,Europe,False,Austria; Croatia; Hungary; Italy,10.0,2100126,20273
+Solomon Islands,SLB,Oceania,False,,26.4,686878,28896
+Somalia,SOM,Africa,False,Djibouti; Ethiopia; Kenya,27.1,15893219,637657
+South Africa,ZAF,Africa,False,Botswana; Eswatini; Lesotho; Mozambique; Namibia; Zimbabwe,18.3,59308690,1221037
+South Korea,KOR,Asia,False,North Korea,12.7,51780579,100210
+South Sudan,SSD,Africa,True,Central African Republic; DR Congo; Ethiopia; Kenya; Sudan; Uganda,27.8,11193729,619745
+Spain,ESP,Europe,False,Andorra; France; Gibraltar; Morocco; Portugal,14.0,47351567,505992
+Sri Lanka,LKA,Asia,False,India,26.9,21919000,65610
+Sudan,SDN,Africa,False,Central African Republic; Chad; Egypt; Eritrea; Ethiopia; Libya; South Sudan,27.3,43849269,1886068
+Suriname,SUR,South America,False,Brazil; French Guiana; Guyana,26.6,586634,163820
+Sweden,SWE,Europe,False,Finland; Norway,3.5,10353442,450295
+Switzerland,CHE,Europe,True,Austria; France; Germany; Italy; Liechtenstein,5.3,8654622,41284
+Syria,SYR,Asia,False,Iraq; Israel; Jordan; Lebanon; Turkey,19.0,17500657,185180
+São Tomé and Príncipe,STP,Africa,False,,25.6,219161,964
+Tajikistan,TJK,Asia,True,Afghanistan; China; Kyrgyzstan; Uzbekistan,0.0,9537642,143100
+Tanzania,TZA,Africa,False,Burundi; DR Congo; Kenya; Malawi; Mozambique; Rwanda; Uganda; Zambia,23.0,59734213,945087
+Thailand,THA,Asia,False,Cambodia; Laos; Malaysia; Myanmar,26.7,69799978,513120
+Timor-Leste,TLS,Oceania,False,Indonesia,24.9,1318442,14874
+Togo,TGO,Africa,False,Benin; Burkina Faso; Ghana,27.2,8278737,56785
+Tonga,TON,Oceania,False,,24.8,105697,747
+Trinidad and Tobago,TTO,North America,False,,26.5,1399491,5130
+Tunisia,TUN,Africa,False,Algeria; Libya,20.2,11818618,163610
+Turkey,TUR,Asia,False,Armenia; Azerbaijan; Bulgaria; Georgia; Greece; Iran; Iraq; Syria,11.7,84339067,783562
+Turkmenistan,TKM,Asia,True,Afghanistan; Iran; Kazakhstan; Uzbekistan,16.5,6031187,488100
+Tuvalu,TUV,Oceania,False,,27.3,11792,26
+Uganda,UGA,Africa,True,DR Congo; Kenya; Rwanda; South Sudan; Tanzania,23.2,45741000,241550
+Ukraine,UKR,Europe,False,Belarus; Hungary; Moldova; Poland; Romania; Russia; Slovakia,9.0,44134693,603500
+United Arab Emirates,ARE,Asia,False,Oman; Saudi Arabia,27.8,9890400,83600
+United Kingdom,GBR,Europe,False,Ireland,9.3,67215293,242900
+United States,USA,North America,False,Canada; Mexico,10.2,329484123,9372610
+Uruguay,URY,South America,False,Argentina; Brazil,17.8,3473727,181034
+Uzbekistan,UZB,Asia,True,Afghanistan; Kazakhstan; Kyrgyzstan; Tajikistan; Turkmenistan,13.3,34232050,447400
+Vanuatu,VUT,Oceania,False,,25.2,307150,12189
+Vatican City,VAT,Europe,True,Italy,15.6,451,0.4
+Venezuela,VEN,South America,False,Brazil; Colombia; Guyana,26.1,28435943,916445
+Vietnam,VNM,Asia,False,Cambodia; China; Laos,24.2,97338583,331212
+Yemen,YEM,Asia,False,Oman; Saudi Arabia,25.4,29825968,527968
+Zambia,ZMB,Africa,True,Angola; Botswana; DR Congo; Malawi; Mozambique; Namibia; Tanzania; Zimbabwe,22.4,18383956,752612
+Zimbabwe,ZWE,Africa,True,Botswana; Mozambique; South Africa; Zambia,21.7,14862927,390757
