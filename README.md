@@ -100,6 +100,8 @@ Implementation: `geodle_core.feedback`, `solve.partition`, `solve.score_guess`, 
 
 Under minimax on the full pool, the opening move is **Israel** ($W = 28$). Under expected residual, the opening move is **Gabon** ($E \approx 15.79$).
 
+Precomputed scores for every Round 1 guess are in [`opening_scores.csv`](opening_scores.csv) (`worst_remaining`, `expected_remaining`, and ranks under each criterion).
+
 ---
 
 ## Commands
